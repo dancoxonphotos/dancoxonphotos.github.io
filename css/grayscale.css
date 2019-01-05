@@ -80,9 +80,7 @@ a:focus {
 .navbar-custom a {
   color: white;
 }
-.navbar-custom .nav li a {
 
-}
 .navbar-custom .nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
   outline: none;
@@ -157,7 +155,7 @@ a:focus {
 #about img {
   height: 400px;
   width: 400px;
-   border-radius: 50%;
+  border-radius: 50%;
 }
 
 .thumbnail {
@@ -165,12 +163,19 @@ a:focus {
   background: transparent;
 }
 
+@media only screen and (max-width: 600px) {
 
+  #about h2 {
+    padding-top: 20px;
+  } 
+  #about img {
+   height: 240px;
+   width: 240px;
+  }
+}
 
 
 /* Hover over Gallery */
-
-
 .image {
   opacity: 1;
   display: block;
